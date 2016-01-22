@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		AC71855F8DCCB2EA12BFD557 /* Pods_instagram2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFEE9F8F66BAE13F8679A184 /* Pods_instagram2.framework */; };
 		B06476E21C51E7C300F19E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06476E11C51E7C300F19E71 /* AppDelegate.swift */; };
-		B06476E41C51E7C300F19E71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06476E31C51E7C300F19E71 /* ViewController.swift */; };
+		B06476E41C51E7C300F19E71 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06476E31C51E7C300F19E71 /* PhotosViewController.swift */; };
 		B06476E71C51E7C300F19E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06476E51C51E7C300F19E71 /* Main.storyboard */; };
 		B06476E91C51E7C300F19E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06476E81C51E7C300F19E71 /* Assets.xcassets */; };
 		B06476EC1C51E7C300F19E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06476EA1C51E7C300F19E71 /* LaunchScreen.storyboard */; };
@@ -20,7 +20,7 @@
 		6F9196EAD29CA98094F38C6B /* Pods-instagram2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagram2.release.xcconfig"; path = "Pods/Target Support Files/Pods-instagram2/Pods-instagram2.release.xcconfig"; sourceTree = "<group>"; };
 		B06476DE1C51E7C300F19E71 /* instagram2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instagram2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06476E11C51E7C300F19E71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B06476E31C51E7C300F19E71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B06476E31C51E7C300F19E71 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		B06476E61C51E7C300F19E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B06476E81C51E7C300F19E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B06476EB1C51E7C300F19E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				B06476E11C51E7C300F19E71 /* AppDelegate.swift */,
-				B06476E31C51E7C300F19E71 /* ViewController.swift */,
+				B06476E31C51E7C300F19E71 /* PhotosViewController.swift */,
 				B06476E51C51E7C300F19E71 /* Main.storyboard */,
 				B06476E81C51E7C300F19E71 /* Assets.xcassets */,
 				B06476EA1C51E7C300F19E71 /* LaunchScreen.storyboard */,
@@ -211,7 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B06476E41C51E7C300F19E71 /* ViewController.swift in Sources */,
+				B06476E41C51E7C300F19E71 /* PhotosViewController.swift in Sources */,
 				B06476E21C51E7C300F19E71 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
