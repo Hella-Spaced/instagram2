@@ -36,6 +36,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="pictureViev" destination="0wI-Ee-KqJ" id="Pd2-TG-gJd"/>
                         <outlet property="tableView" destination="FUb-hM-Aid" id="Ymh-Wd-DSZ"/>
                     </connections>
                 </viewController>

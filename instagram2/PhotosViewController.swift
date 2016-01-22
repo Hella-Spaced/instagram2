@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AFNetworking
 
 class ViewController: UIViewController {
 
@@ -14,9 +15,14 @@ class ViewController: UIViewController {
     
     
     
+    @IBOutlet weak var pictureViev: UIImageView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        tableView.rowHeight = 320;
         
         
         let clientId = "e05c462ebd86446ea48a5af73769b602"
@@ -38,6 +44,12 @@ class ViewController: UIViewController {
                 }
         });
         task.resume()
+        
+        
+        
+        
+        
+        
         
         // Do any additional setup after loading the view, typically from a nib.
     }
